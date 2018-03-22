@@ -1,0 +1,25 @@
+package ${package.ServiceImpl};
+import ${package.Entity}.${entity};
+import ${package.Mapper}.${table.mapperName};
+import ${package.Service}.${table.serviceName};
+import ${superServiceImplClassPackage};
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+/**
+ * <li>文件名称: ${table.comment} 服务接口实现类</li>
+ * <li>文件描述: ${table.comment} 服务接口实现类</li>
+ * <li>版权所有: 版权所有© 2005-2017</li>
+ * <li>公 司: xxxxx股份有限公司</li>
+ * <li>内容摘要: 无</li>
+ * <li>其他说明:无</li>
+ * <li>完成日期： ${date}</li>
+ * <li>修改记录: 无</li>
+ * @version 产品版本
+ * @author ${author}
+ */
+@Service
+@Transactional
+public class ${table.serviceImplName} extends ${superServiceImplClass}<${table.mapperName}, ${entity}> implements ${table.serviceName} {
+
+}
