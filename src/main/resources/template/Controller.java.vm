@@ -123,4 +123,4 @@ public class ${table.controllerName} {
             }
             return R.ok();
             }
-    }
+}
